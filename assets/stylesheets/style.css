@@ -19,6 +19,12 @@ nav {
     z-index: 5;
 }
 
+.social-icons {
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
 
 .navbar-toggler{
     cursor: pointer;
