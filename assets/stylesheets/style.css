@@ -3,12 +3,32 @@
     height: 100vh;
 }
 
+.skills {
+    padding: 65px 15px 4px ;
+    position: relative;
+    min-height: 100vh;
+}
+
+.picture {
+    margin-top: 20px;
+    height: 90px;
+    border-radius: 50%;
+}
+
 main {
     position: relative;
 }
 
 input:focus, textarea:focus, select:focus, button:focus{
     outline: none;
+}
+
+.description-text {
+    font-size: 18px;
+}
+
+#rocket {
+    height: 100px;
 }
 
 nav {
@@ -45,8 +65,24 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-size: 18px;
+    background-color: #9b9ba1;
+    color: white;
+    text-align: center;
+}
+
 h5{
     font-size: 15px;
+}
+
+li {
+    font-size: 17px;
+}
+
+.line-icon {
+    height: 20px;
+    margin-left: 10px;
 }
 
 .crete-font {
@@ -74,4 +110,15 @@ h5{
     width: 30px;
     height: 4px;
     margin: auto;
-  }
+}
+
+.button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #1c1624;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    margin: 25px auto; 
+}
