@@ -3,16 +3,45 @@
     height: 100vh;
 }
 
+main {
+    position: relative;
+}
+
 input:focus, textarea:focus, select:focus, button:focus{
     outline: none;
 }
 
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
+nav {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+
+
+.navbar-toggler{
     cursor: pointer;
-    }
+}
+
+.detail {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
 
 .crete-font {
     font-family: 'Crete Round', serif;
@@ -25,6 +54,10 @@ input:focus, textarea:focus, select:focus, button:focus{
 }
 .dark {
     color: #1c1624;
+}
+
+.lighter {
+    color: #9B9BA1;
 }
 .logo {
     height: 45px;
