@@ -1,0 +1,77 @@
+.presentation  {
+    background-color: #1c1624;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: none;
+}
+
+nav {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+
+.social-icons {
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+.navbar-toggler{
+    cursor: pointer;
+}
+
+.detail {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.crete-font {
+    font-family: 'Crete Round', serif;
+}
+.inter-font {
+    font-family: 'Inter', sans-serif; 
+}
+.pink-text {
+    color: #df5890;
+}
+.dark {
+    color: #1c1624;
+}
+
+.lighter {
+    color: #9B9BA1;
+}
+.logo {
+    height: 45px;
+}
+
+.line {
+    background-color: #1c1624;
+    width: 30px;
+    height: 4px;
+    margin: auto;
+  }
