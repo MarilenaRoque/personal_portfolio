@@ -1,0 +1,38 @@
+.presentation  {
+    background-color: #1c1624;
+    height: 100vh;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: none;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+
+.crete-font {
+    font-family: 'Crete Round', serif;
+}
+.inter-font {
+    font-family: 'Inter', sans-serif; 
+}
+.pink-text {
+    color: #df5890;
+}
+.dark {
+    color: #1c1624;
+}
+.logo {
+    height: 45px;
+}
+
+.line {
+    background-color: #1c1624;
+    width: 30px;
+    height: 4px;
+    margin: auto;
+  }
