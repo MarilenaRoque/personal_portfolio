@@ -25,13 +25,17 @@ main {
 }
 
 .card-screenshot {
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: 30%;
     margin-right: 10px;
 }
 
 .card-paragraph {
     font-size: 12px;
+}
+
+.project-cards {
+    min-height: 75vh;
 }
 
 .project-screenshot {
@@ -184,7 +188,7 @@ li {
     padding: 4px;
     display: inline-block;
     margin: auto;
-    width: 80px;
+    
 }
 .button-icon {
     width: 20px;
