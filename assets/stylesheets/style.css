@@ -28,7 +28,7 @@ main {
     width: 90%;
     margin: auto;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 input:focus, textarea:focus, select:focus, button:focus{
@@ -75,6 +75,7 @@ h1 {
 
 h2 {
     color: #6e5870;
+    font-size: 15px;
 }
 
 h3 {
@@ -161,5 +162,5 @@ li {
     border-radius: 4px;
     padding: 8px;
     display: inline-block;
-    margin: 15px auto; 
+    margin: 8px auto; 
 }
