@@ -4,7 +4,7 @@
 }
 
 .skills {
-    padding: 65px 15px 4px ;
+    padding: 65px 15px 4px;
     position: relative;
     min-height: 100vh;
 }
@@ -15,8 +15,34 @@
     border-radius: 50%;
 }
 
+.main-project, .others {
+    padding: 65px 15px 4px;
+    height: 100vh;
+}
+
 main {
     position: relative;
+}
+
+.card-screenshot {
+    width: 30%;
+    height: 30%;
+    margin-right: 10px;
+}
+
+.card-paragraph {
+    font-size: 12px;
+}
+
+.project-cards {
+    min-height: 75vh;
+}
+
+.project-screenshot {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 input:focus, textarea:focus, select:focus, button:focus{
@@ -61,6 +87,11 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    color: #6e5870;
+    font-size: 15px;
+}
+
 h3 {
     font-size: 20px;
 }
@@ -75,6 +106,19 @@ h4 {
 h5{
     font-size: 15px;
 }
+
+.effect {
+    display: block;
+    width: 40px;
+    margin: auto;
+    height: 5px;
+    background-color: #6e5870;
+  }
+  
+  .header-effect:hover + .effect {
+    width: 150px;
+    transition: width 2s;
+  }
 
 li {
     font-size: 17px;
@@ -121,4 +165,31 @@ li {
     padding: 8px;
     display: inline-block;
     margin: 25px auto; 
+}
+
+
+.button-projects {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #df5890;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    margin: 8px auto; 
+}
+
+.button-other {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #1c1624;
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    margin: auto;
+    
+}
+.button-icon {
+    width: 20px;
 }
