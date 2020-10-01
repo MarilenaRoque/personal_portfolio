@@ -6,7 +6,6 @@
 .skills {
     padding: 65px 15px 4px;
     position: relative;
-    min-height: 100vh;
 }
 
 .picture {
@@ -15,13 +14,19 @@
     border-radius: 50%;
 }
 
-.main-project, .others {
+.main-project {
     padding: 65px 15px 4px;
-    height: 100vh;
+}
+.others {
+    padding: 65px 15px 4px;
 }
 
 main {
     position: relative;
+}
+
+.contact h3, .contact h5 {
+    width:68%;
 }
 
 .card-screenshot {
@@ -89,7 +94,7 @@ h1 {
 
 h2 {
     color: #6e5870;
-    font-size: 15px;
+    font-size: 21px;
 }
 
 h3 {
@@ -192,4 +197,18 @@ li {
 }
 .button-icon {
     width: 20px;
+}
+.contact {
+    background-color: #1c1624;
+    padding: 45px 25px 20px;
+    position: relative;
+}
+
+.heart {
+    color: #df5890;
+    
+}
+footer {
+    width: 100%;
+    background-color: #1c1624;
 }
