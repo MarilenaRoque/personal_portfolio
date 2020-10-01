@@ -15,13 +15,23 @@
     border-radius: 50%;
 }
 
-.main-project {
+.main-project, .others {
     padding: 65px 15px 4px;
     height: 100vh;
 }
 
 main {
     position: relative;
+}
+
+.card-screenshot {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.card-paragraph {
+    font-size: 12px;
 }
 
 .project-screenshot {
@@ -163,4 +173,19 @@ li {
     padding: 8px;
     display: inline-block;
     margin: 8px auto; 
+}
+
+.button-other {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #1c1624;
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    margin: auto;
+    width: 80px;
+}
+.button-icon {
+    width: 20px;
 }
