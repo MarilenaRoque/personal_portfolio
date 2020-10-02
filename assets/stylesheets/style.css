@@ -36,11 +36,12 @@ main {
 }
 
 .card-paragraph {
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .project-cards {
     min-height: 75vh;
+    flex-direction: column;
 }
 
 .project-screenshot {
@@ -211,4 +212,47 @@ li {
 footer {
     width: 100%;
     background-color: #1c1624;
+}
+
+.medium-h4 {
+    display:none;
+}
+
+
+@media (min-width: 620px) {
+    .project-cards {
+        flex-direction: row;
+        gap: 8px;
+        min-height: fit-content;
+        max-width: 800px;
+        margin: auto;
+
+    }
+
+    .cardx {
+        flex-direction: column;
+    }
+
+    .medium-h4 {
+        display: block;
+        height: 45px;
+    }
+
+    .small-h4 {
+        display: none;
+    }
+
+    .card-screenshot {
+        width: 100%;
+        max-width: 190px;
+        max-height: 190px;
+        height: auto;
+        align-self: center;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        min-height: 350px;
+    }
 }
