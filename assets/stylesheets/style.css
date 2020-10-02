@@ -1,0 +1,341 @@
+
+.presentation  {
+    background-color: #1c1624;
+    height: 100vh;
+}
+
+.skills {
+    padding: 65px 15px 4px;
+    position: relative;
+}
+
+.picture {
+    margin-top: 20px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.main-project {
+    padding: 65px 15px 4px;
+}
+.others {
+    padding: 65px 15px 4px;
+}
+
+main {
+    position: relative;
+}
+
+.contact h3, .contact h5 {
+    width:68%;
+}
+
+.card-screenshot {
+    width: 30%;
+    height: 30%;
+    margin-right: 10px;
+}
+
+.card-paragraph {
+    font-size: 17px;
+}
+
+.project-cards {
+    min-height: 75vh;
+    flex-direction: column;
+}
+
+.project-screenshot {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: none;
+}
+
+.description-text {
+    font-size: 18px;
+}
+
+#rocket {
+    height: 100px;
+}
+
+nav {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+}
+
+.social-icons {
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+.navbar-toggler{
+    cursor: pointer;
+}
+
+.detail {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+
+}
+
+.links-nav li{
+    list-style: none;
+}
+
+.links-nav li a{
+    color: #1c1624;
+}
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color: #6e5870;
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    background-color: #9b9ba1;
+    color: white;
+    text-align: center;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.effect {
+    display: block;
+    width: 40px;
+    margin: auto;
+    height: 5px;
+    background-color: #6e5870;
+  }
+  
+  .header-effect:hover + .effect {
+    width: 150px;
+    transition: width 2s;
+  }
+
+li {
+    font-size: 17px;
+}
+
+.line-icon {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.crete-font {
+    font-family: 'Crete Round', serif;
+}
+.inter-font {
+    font-family: 'Inter', sans-serif; 
+}
+.pink-text {
+    color: #df5890;
+}
+.dark {
+    color: #1c1624;
+}
+
+.lighter {
+    color: #9B9BA1;
+}
+.logo {
+    height: 45px;
+}
+
+.line {
+    background-color: #1c1624;
+    width: 30px;
+    height: 4px;
+    margin: auto;
+}
+
+.button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #1c1624;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    margin: 25px auto; 
+}
+
+
+.button-projects {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #df5890;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    margin: 8px auto; 
+}
+
+.button-other {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #1c1624;
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    margin: auto;
+    
+}
+.button-icon {
+    width: 20px;
+}
+.contact {
+    background-color: #1c1624;
+    padding: 45px 25px 20px;
+    position: relative;
+}
+
+.heart {
+    color: #df5890;
+    
+}
+footer {
+    width: 100%;
+    background-color: #1c1624;
+}
+
+.medium-h4 {
+    display: none;
+}
+
+.first-page {
+    display: none !important;
+}
+
+
+@media (min-width: 620px) {
+    .project-cards {
+        flex-direction: row;
+        gap: 8px;
+        min-height: fit-content;
+        max-width: 800px;
+        margin: auto;
+
+    }
+
+    .cardx {
+        flex-direction: column;
+    }
+
+    .medium-h4 {
+        display: block;
+        height: 45px;
+    }
+
+    .small-h4 {
+        display: none;
+    }
+
+    .card-screenshot {
+        width: 100%;
+        max-width: 190px;
+        max-height: 190px;
+        height: auto;
+        align-self: center;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        min-height: 350px;
+    }
+
+    .button-projects {
+        background-color: #1c1624
+    }
+}
+
+@media (min-width: 990px) {
+    .row {
+        gap: 0px;
+    }
+
+
+
+    h1 {
+        font-size: 45px;
+    }
+    .first-page {
+        display: flex !important;
+        height: 100vh;
+        background-color: #1c1624;
+    }
+    .icon-first {
+        height: 250px;
+    }
+
+    .presentation h3 {
+        font-size: 35px;
+    }
+
+    .presentation h5 {
+        font-size: 23px;
+    }
+    .left-roll {
+        position: sticky;
+        bottom: 2px;
+        align-self: flex-end;
+    }
+    .presentation {
+        position: sticky;
+        bottom: 2px;
+        align-self: flex-end;
+    }
+
+
+    .main-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .project-specification {
+        width: 100%;
+
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+   
+
+    .contact {
+        min-height: 100vh;
+        padding: 65px 25px 20px;
+        align-items: center;
+    }
+    
+
+    
+}
