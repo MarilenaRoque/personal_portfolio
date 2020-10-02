@@ -203,6 +203,7 @@ li {
     background-color: #1c1624;
     padding: 45px 25px 20px;
     position: relative;
+    width: 100%;
 }
 
 .heart {
@@ -259,6 +260,10 @@ footer {
     .contact {
         min-height: 350px;
     }
+
+    .button-projects {
+        background-color: #1c1624
+    }
 }
 
 @media (min-width: 990px) {
@@ -300,6 +305,15 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .project-specification {
+        width: 100%;
+
+    }
+
+    h5 {
+        font-size: 18px;
     }
     
 
