@@ -215,7 +215,11 @@ footer {
 }
 
 .medium-h4 {
-    display:none;
+    display: none;
+}
+
+.first-page {
+    display: none !important;
 }
 
 
@@ -255,4 +259,49 @@ footer {
     .contact {
         min-height: 350px;
     }
+}
+
+@media (min-width: 990px) {
+    .row {
+        gap: 0px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .first-page {
+        display: flex !important;
+        height: 100vh;
+        background-color: #1c1624;
+    }
+    .icon-first {
+        height: 250px;
+    }
+
+    .presentation h3 {
+        font-size: 35px;
+    }
+
+    .presentation h5 {
+        font-size: 23px;
+    }
+    .left-roll {
+        position: sticky;
+        bottom: 2px;
+        align-self: flex-end;
+    }
+    .presentation {
+        position: sticky;
+        bottom: 2px;
+        align-self: flex-end;
+    }
+
+
+    .main-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+
+    
 }
