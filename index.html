@@ -19,14 +19,37 @@
     </head>
 
 
-    <body>
+    <body class="p-0">
         <nav class="navbar p-1">
 
             <!-- Navbar brand -->
             <a class="navbar-brand py-0 pl-3" href="#presentation"><img class= "logo" alt="Icon" src="assets/images/icon2.svg"></a>
+
+
+            <div >
+            
+              <!-- Links -->
+              <ul class="links-nav d-none d-lg-flex mr-auto">
+                <li class="text-center crete-font">
+                  <a class="nav-link dark text-uppercase" href="#first-page">Home</a>
+                </li>
+                <li class="text-center crete-font">
+                  <a class="nav-link dark text-uppercase" href="#skills">About Myself</a>
+                </li>
+                <li class="text-center crete-font">
+                  <a class="nav-link dark text-uppercase" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item text-center crete-font">
+                  <a class="nav-link dark text-uppercase" href="#contact">Let's Connect</a>
+                </li>
+                
+              </ul>
+              <!-- Links -->
+          
+            </div>
           
             <!-- Collapse button -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            <button class="navbar-toggler toggler-example d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
               aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="line d-block ml-auto mr-1"></span>
               <span class="line mt-1 d-block ml-auto mr-1"></span>
               <span class="line mt-1 d-block ml-auto mr-1"></span></button>
@@ -58,7 +81,7 @@
             </nav>
 
             <!-- Main Page -->
-          <div class="fixed-container row">
+          <div class="fixed-container row no-gutters">
             <main id='presentation'class="presentation col-lg-6 d-flex justify-content-center flex-column">
               <div class="presentation-text p-5">
                 <h1 class="pink-text crete-font"> Hey There!</h1>
@@ -77,7 +100,7 @@
             </main>
 
           <div class="left-roll p-lg-0 col-lg-6">
-          <div class="first-page justify-content-end align-items-center">
+          <div class="first-page justify-content-end align-items-center" id="first-page">
             <img alt="detail" class="icon-first" src="assets/images/icon.svg">
           </div>
             <!-- About myself page -->
@@ -218,8 +241,9 @@
           </div>
         </div>
 
-
+    
         <div id='contact'class="contact d-flex">
+          
           <div class="right-contact">
             <div class="title d-flex justify-content-start">
               <h1 class="pink-text crete-font mb-2">Let's Connect!</h1>
@@ -230,13 +254,13 @@
             <h3 class="text-white crete-font">Let's Connect!</h3>
             <h5 class="pink-text crete-font">marilenas@id.uff.br</h5>
             <img alt="detail" class="detail" id = 'rocket' src="assets/images/astronaut.svg"> 
-          </div>
-          <div class="contact-buttons d-flex flex-column mt-5">
-            <a href="https://github.com/MarilenaRoque"><img src="assets/images/github.svg " alt="logo" class="social-icons mb-2"></a>
+            </div>
+            <div class="contact-buttons d-flex flex-column mt-5">
+              <a href="https://github.com/MarilenaRoque"><img src="assets/images/github.svg " alt="logo" class="social-icons mb-2"></a>
                   <a href="https://twitter.com/MariRoq88285995"><img src="assets/images/twitter.svg" alt="logo" class="social-icons mb-2"></a>
                   <a href="https://www.linkedin.com/in/roquemarilena/"><img src="assets/images/linkedin.svg" alt="logo" class="social-icons mb-2"></a>
+            </div>
           </div>
-        </div>
       </div>
     </div>
       <footer class="m-0 p-0">
