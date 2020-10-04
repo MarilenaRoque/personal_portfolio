@@ -1,25 +1,14 @@
 # Mari Roque - Personal Potfolio
 
-> This is a website to preseent myself and showcase my best projects.
+> This is a responsive website to present myself and showcase my best projects.
 
-# A Live Version will be available soon [HERE]()
+
+# A Live Version will be available soon [HERE](https://mariroqueproject.com)
 
 ![Timeline View](./app/assets/images/screenshot.png)
 
 
-## Features Built
 
-If you're no authenticated User, you can
-
-- Sign Up
-- Sign In
-
-If you are an authenticated User, you can
-
-- See all articles
-- See articles by category
-- Create articles
-- Vote articles
 
 
 ## Built With
