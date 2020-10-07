@@ -5,9 +5,7 @@
 
 # A Live Version will be available soon [HERE](https://mariroqueproject.com)
 
-![Timeline View](./app/assets/images/screenshot.png)
-
-
+![Timeline View](./assets/images/screenshot.png)
 
 
 
